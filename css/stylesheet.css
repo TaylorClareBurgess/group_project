@@ -3,10 +3,13 @@ header {
      background-size: 20px;
      background: "vegan.jpg"
      color: black;
+     font-family: "courier new", courier, monospace;
+     font-style: impact, italic;
+     font-size: 50px;
        }
    ul {
      padding: 10px;
-     background: rgba(0,0,0,0.5);
+     background: white;
       }
    li {
      display: inline;
