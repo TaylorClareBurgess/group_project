@@ -1,16 +1,18 @@
 header {
      text-align: center;
      background-size: 20px;
-     background: "vegan.jpg"
+     background:"vegan.jpg"
      color: black;
      font-family: "courier new", courier, monospace;
      font-style: impact, italic;
      font-size: 50px;
        }
    ul {
-     padding: 10px;
+     padding: 20px;
      background: white;
       }
    li {
      display: inline;
      padding: 0px 10px 0px 10px;
+
+   }
