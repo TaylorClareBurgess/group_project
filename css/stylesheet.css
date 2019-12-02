@@ -1,14 +1,10 @@
 body {
-  background-color: blue;
+  background-color: rgb(211,211,211);
   font-family: helvetica;
       }
 a {
   text-decoration: none;
-  color: red;
-}
-
-h1, h2, h3 {
-  margin: 0;
+  color: green;
 }
 
 #container  {
@@ -20,39 +16,25 @@ h1, h2, h3 {
 
 #header {
      color: white;
-     background-color: blue;
+     background-color: green;
      text-align: center;
      font-family: "courier new", courier, monospace;
      font-style: impact, italic;
      padding: 10px;
         }
 
-#content {
-  padding: 10px;
-}
-
-#nav {
-  width: 180px
-  float: left;
-}
-
-#nav ul{
-  list-style-type: none;
-  padding: 0;
-}
-
-#nav.selected {
-  font-weight: bold;
-}
-
-#main {
-  width: 600px
-  float: right;
-}
-
 #footer {
   clear: both;
   background-color: grey;
   color: white;
-  text-align: centerr
+  text-align: center;
          }
+
+.container2 {
+  display: flex;
+            }
+
+.item {
+  width: 100%;
+  padding:20px;
+      }
