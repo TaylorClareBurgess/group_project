@@ -1,15 +1,17 @@
-.body {
-  background-color: rgb(211,211,211);
-  font-family: helvetica;
-  padding: 10px;
-      }
-a {
-  text-decoration: none;
-  color: green;
+.content {
+  background-color: white;
+  padding: 30px;
+  font-size: 15px;
+  font-family: "courier new", courier, monospace;
+  font-style: impact;
+  style: impact;
+}
+.col-sm-8 h4 {
+  font-size: 30px;
 }
 
 #container  {
-   background-color: white;
+   background-color: darkgreen;
    width: 800px;
    margin-left: auto;
    margin-right: auto;
@@ -17,11 +19,12 @@ a {
 
 .header {
      color: white;
-     background-color: green;
+     background-color: darkgreen;
      text-align: center;
      font-family: "courier new", courier, monospace;
      font-style: impact, italic;
      padding: 10px;
+     font-weight: bold;
         }
 
 #footer {
