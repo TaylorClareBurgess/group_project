@@ -31,7 +31,6 @@ div div.image img {
   width: 90%;
   height: 200%;
   padding: 5px;
-
 }
 
 form {
@@ -53,4 +52,13 @@ form {
   style: impact;
   font-size: 20px;
   padding: 10px;
+}
+
+img {
+  padding: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
 }
