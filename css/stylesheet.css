@@ -15,9 +15,6 @@
   font-style: impact;
   style: impact;
         }
-.col-sm-8 h4 {
-  font-size: 30px;
-        }
 
 .container2 {
   display: flex;
@@ -61,4 +58,28 @@ img {
   margin-right: auto;
   width: 100%;
   height: 100%;
+}
+
+.Restaurant1 {
+  width: 15px;
+  height: 15px;
+  background: red;
+  position: absolute;
+  top: 300px;
+  right: 50%;
+}
+
+.Restaurant1:hover .Restaurantinfo {
+     display: block;
+}
+
+.Restaurantinfo {
+    width: 200px;
+    height: 150px;
+    display: none;
+    font-size: 15px;
+    color: white;
+    background-color: darkgreen;
+    style: impact;
+    text-align: center;
 }
